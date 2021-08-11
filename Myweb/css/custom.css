@@ -1,0 +1,7 @@
+.header1{
+    background: url('../image/02.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 500px;
+}

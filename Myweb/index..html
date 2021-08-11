@@ -1,0 +1,196 @@
+<?php 
+    session_start();
+    include('server.php');
+
+    if (isset($_GET['logout'])) {
+        session_destroy();
+        unset($_SESSION['username']);
+        header('location: index.php');
+    }
+
+?>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webwri</title>
+  <link rel="stylesheet" href="sss.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <script src="js/bootstrap.min.js"></script>
+  <div class="header">
+    <h1>Webwri</h1>
+    <h6>เว็บไซต์สำหรับอ่านบทความและตั้งกระทู้</h6>
+  </div>
+  <div class="topnav">
+    <a href="index.php">หน้าแรก</a>
+    <a href="acti.php">บทความ</a>
+    <a href="topic.php">กระทู้</a>
+    <a href="login.php" style="float:right">เข้าสู่ระบบ</a>
+    <a href="wri.php" style="float:right">เขียน</a>
+  </div>
+      
+          <?php if (isset($_SESSION['username'])) : ?>
+              <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+              <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
+          <?php endif ?>
+  <nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand"></a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+  <div class="container" style="background-color: #c9c9c9; padding: 1% 5%;">
+    <h1>TOP10กระทู้มาแรง</h1>
+    <table class="table table-hover">
+      <thead class="thead-dark" style="padding:100%;">
+        <tr>
+          <th scope="col">อันดับ</th>
+          <th scope="col">ชื่อเรื่อง</th>
+          <th scope="col">ยอดวิว</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td><a href="read1.php">ลุงพลกินข้าว</a></td>
+          <td>100.2k</td>
+        </tr>
+
+
+        <tr>
+          <th scope="row">2</th>
+          <td><a href="read1.php">น้ำท่วม</td>
+          <td>1.9k</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        <tr>
+          <th scope="col">4</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <th scope="row">5</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <br>
+  <div class="container" style="background-color: #c9c9c9; padding: 1% 5%;">
+    <h1>TOP10บทความมาแรง</h1>
+    <table class="table table-hover">
+      <thead class="thead-dark" style="padding:100%;">
+        <tr>
+          <th scope="col">อันดับ</th>
+          <th scope="col">ชื่อเรื่อง</th>
+          <th scope="col">ยอดวิว</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        <tr>
+          <th scope="col">4</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+        </tr>
+        </thead>
+      <tbody>
+        <tr>
+          <th scope="row">5</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>ชื่อหัวข้อ</td>
+          <td>1.9k</td>
+
+        </tr>
+      </tbody>
+    </table>
+</body>
+
+</html>

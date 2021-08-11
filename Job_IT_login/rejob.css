@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    
+}
+.hero{
+    height:100% ;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box-two{
+    width: 450px;
+    height: 500px;
+    position: relative;
+    margin:6% auto;
+    background:#d5ebd5 ;
+    padding: 5px;
+}
+.text-job{
+    top:150px;
+    padding:10px 288px;
+    width: 350px;
+}
+.input-group-regisone{
+    top:20px;
+    padding:0px 25px;
+    position: absolute;
+    width: 300px;
+}
+.details-name{
+    position: absolute;
+    width: 120px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 90px;
+}
+.details-name label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.details-name input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:280%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.details-email{
+    position: absolute;
+    width: 120px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 90px;
+    top: 80px;
+}
+.details-email label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.details-email input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:280%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.details-cemail{
+    position: absolute;
+    width: 120px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 90px;
+    top: 160px; 
+}
+.details-cemail label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.details-cemail input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:280%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.details-pass{
+    position: absolute;
+    width: 120px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 90px;
+    top: 240px;
+}
+.details-pass label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.details-pass input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:280%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.details-cpass{
+    position: absolute;
+    width: 120px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 90px;
+    top: 320px;
+}
+.details-cpass label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.details-cpass input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:280%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.confirm-job{
+    text-align: center;
+    color:#ffffff;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    background:#6AC36A;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 475px;
+    left: 280px; 
+}
+.cancel-job{
+    text-align: center;
+    color:#ffffff;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    background:#F35A5A;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 475px;
+    left: 368px; 
+}

@@ -1,0 +1,334 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    
+}
+.hero{
+    height:100% ;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box-three{
+    width: 720px;
+    height: 850px;
+    position: relative;
+    margin:6% auto;
+    background:#d5ebd5 ;
+    padding: 20px;
+    bottom: 60px;
+
+}
+.text-appl{
+    top:18px;
+    right: -130px;
+    padding:0;
+    width: 350px;
+    position: absolute;
+
+}
+.input-group-registwo{
+    top:10px;
+    padding:0;
+    position: relative;
+    width: 300px;
+    left: 20px;
+    transition: .5s;
+}
+.compa-box{
+    position: absolute;
+    width: 117px;
+    padding:10px 0px;
+    margin:15px 0px;
+    left: 10px;
+}
+.compa-box label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.compa-box input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:619%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.type-box{
+    position: absolute;
+    top: 70px;
+    width: 50%;
+    left: 10px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.type-box label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    width: 100px;
+    color: black;
+    font-size: 15px;
+}
+.type-box select{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:244%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.con-box{
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    width: 100px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.con-box label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.con-box input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:353%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+
+.num-box{
+    position: absolute;
+    left: 380px;
+    top: 149px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.num-box label{
+    position: relative;
+    top: 8px;
+    right: 40px;
+    color: black;
+    font-size: 15px;
+}
+.num-box input{
+    position: relative;
+    right: 40px;
+    top:0 ;
+    width:643%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.email-box{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    padding:10px 0px;
+    margin:15px 0px;
+
+}
+.email-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.email-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:355%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.loc-box{
+    position: absolute;
+    left: 20px;
+    top: 315px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.loc-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.loc-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:288%;
+    padding:10px 5px;
+    margin:15px 0px;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.logo-box{
+    position: absolute;
+    left: 20px;
+    top: 400px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.logo-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.logo-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:258%;
+    padding:10px 5px;
+    margin:15px 0px;
+    background-color:#fff;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.ser-box{
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.ser-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.ser-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:258%;
+    padding:10px 5px;
+    margin:15px 0px;
+    background-color:#fff;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.pcon-box{
+    position: absolute;
+    left: 20px;
+    top: 585px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.pcon-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.pcon-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:324%;
+    padding:10px 5px;
+    margin:15px 0px;
+    background-color:#fff;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.cp-con-box{
+    position: absolute;
+    left: 20px;
+    top: 665px;
+    padding:10px 0px;
+    margin:15px 0px;
+}
+.cp-con-box label{
+    position: relative;
+    top: 8px;
+    right: 48px;
+    color: black;
+    font-size: 15px;
+}
+.cp-con-box input{
+    position: relative;
+    right: 50px;
+    top:0 ;
+    width:279%;
+    padding:10px 5px;
+    margin:15px 0px;
+    background-color:#fff;
+    border-left:1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;   
+}
+.confirm-appl{
+    text-align: center;
+    color:#ffffff;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    background:#6AC36A;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 850px;
+    left: 580px; 
+}
+.cancel-appl{
+    text-align: center;
+    color:#ffffff;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    background:#F35A5A;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 850px;
+    left: 668px; 
+}
